@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testPages.HomePageTest">
+      <class name="statefirm.tdd.test.auto.AutoQuoteTest">
         <methods>
-          <include name="clickLoginButtonTest"/>
+          <include name="getAQuoteTest"/>
+          <include name="setupSuite"/>
+          <include name="setUpDriver"/>
           <include name="tearUp"/>
-          <include name="setup"/>
         </methods>
-      </class> <!-- testPages.HomePageTest -->
+      </class> <!-- statefirm.tdd.test.auto.AutoQuoteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

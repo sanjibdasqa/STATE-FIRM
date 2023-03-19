@@ -1,25 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Validating ----> Actual : ***Create an affordable price, just for you*** Expected :***Create an affordable price, just for you***<br>]]>
+    </line>
+    <line>
+      <![CDATA[30340 <--- This value has been passed into ---> [[ChromeDriver: chrome on WINDOWS (6bd613b6adc6b7583992a4762e59f1c7)] -> xpath: //input[@id='quote-main-zip-code-input']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on WINDOWS (6bd613b6adc6b7583992a4762e59f1c7)] -> id: quote-main-zip-btn]---->has been clicked<br>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-01-26T19:11:45 EST" name="Default suite" finished-at="2023-01-26T19:12:07 EST" duration-ms="21134">
+  <suite started-at="2023-02-20T22:23:54 EST" name="Default suite" finished-at="2023-02-20T22:24:16 EST" duration-ms="21973">
     <groups>
+      <group name="auto">
+        <method signature="AutoQuoteTest.getAQuoteTest()[pri:0, instance:statefirm.tdd.test.auto.AutoQuoteTest@4b8ee4de]" name="getAQuoteTest" class="statefirm.tdd.test.auto.AutoQuoteTest"/>
+      </group> <!-- auto -->
     </groups>
-    <test started-at="2023-01-26T19:11:45 EST" name="Default test" finished-at="2023-01-26T19:12:07 EST" duration-ms="21134">
-      <class name="testPages.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testPages.HomePageTest@71238fc2]" started-at="2023-01-26T19:11:45 EST" name="setup" finished-at="2023-01-26T19:12:03 EST" duration-ms="17781" status="PASS">
+    <test started-at="2023-02-20T22:23:54 EST" name="Default test" finished-at="2023-02-20T22:24:16 EST" duration-ms="21973">
+      <class name="statefirm.tdd.test.auto.AutoQuoteTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:statefirm.tdd.test.auto.AutoQuoteTest@4b8ee4de]" started-at="2023-02-20T22:23:54 EST" name="setupSuite" finished-at="2023-02-20T22:23:54 EST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="startAQuoteTest()[pri:0, instance:testPages.HomePageTest@71238fc2]" started-at="2023-01-26T19:12:03 EST" name="startAQuoteTest" finished-at="2023-01-26T19:12:07 EST" duration-ms="3318" status="PASS">
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:statefirm.tdd.test.auto.AutoQuoteTest@4b8ee4de]" started-at="2023-02-20T22:23:54 EST" name="setUpDriver" finished-at="2023-02-20T22:24:08 EST" duration-ms="13721" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startAQuoteTest -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:testPages.HomePageTest@71238fc2]" started-at="2023-01-26T19:12:07 EST" name="tearUp" finished-at="2023-01-26T19:12:07 EST" duration-ms="0" status="PASS">
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="getAQuoteTest()[pri:0, instance:statefirm.tdd.test.auto.AutoQuoteTest@4b8ee4de]" started-at="2023-02-20T22:24:08 EST" name="getAQuoteTest" finished-at="2023-02-20T22:24:16 EST" duration-ms="7955" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Validating ----> Actual : ***Create an affordable price, just for you*** Expected :***Create an affordable price, just for you***<br>]]>
+            </line>
+            <line>
+              <![CDATA[30340 <--- This value has been passed into ---> [[ChromeDriver: chrome on WINDOWS (6bd613b6adc6b7583992a4762e59f1c7)] -> xpath: //input[@id='quote-main-zip-code-input']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on WINDOWS (6bd613b6adc6b7583992a4762e59f1c7)] -> id: quote-main-zip-btn]---->has been clicked<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAQuoteTest -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:statefirm.tdd.test.auto.AutoQuoteTest@4b8ee4de]" started-at="2023-02-20T22:24:16 EST" name="tearUp" finished-at="2023-02-20T22:24:16 EST" duration-ms="259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- testPages.HomePageTest -->
+      </class> <!-- statefirm.tdd.test.auto.AutoQuoteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
